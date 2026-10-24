@@ -45,6 +45,18 @@
             text-align: center;
             position: relative;
             overflow: hidden;
+            animation: floatIn 0.8s ease-out;
+        }
+
+        @keyframes floatIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .badge {
@@ -186,7 +198,8 @@
         • Recuerda extraer completamente el archivo <strong>.ZIP</strong> antes de iniciar el juego.
     </div>
 
-    <a href="https://www.mediafire.com/file/1mtvjs517pve66m/bark_bark-ALPHABETA-pc.zip/file" target="_blank" rel="noopener noreferrer" class="btn-download">
+    <!-- Enlace directo correcto al archivo .zip en MediaFire -->
+    <a href="https://www.mediafire.com/file/17bxca3b8uwxlhc/bark_bark-ALPHA0.2-pc.zip/file" target="_blank" rel="noopener noreferrer" class="btn-download">
         ✨ Descargar Beta Alpha (Windows)
     </a>
 
@@ -195,8 +208,8 @@
             📝 Registro de Actualizaciones (Novedades)
         </div>
         <ul class="updates-list">
+            <li><strong>v0.2.0 (Alpha Beta):</strong> Se corrigieron bugs menores, se agregaron nuevos archivos y se expandió más historia.</li>
             <li><strong>v0.1.0 (Alpha):</strong> Primera versión ejecutable con la escena inicial y decisiones de prueba.</li>
-            <li>Próximamente: Integración de efectos de audio y eventos dinámicos.</li>
         </ul>
     </div>
 
